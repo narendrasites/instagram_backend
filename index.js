@@ -16,7 +16,7 @@ dotenv.config();
 
 // cors
 app.use(cors());
-
+console.log(process.env.PORT)
 // body-parser
 app.use(bodyparser.urlencoded({ extended: false }))
 app.use(bodyparser.json())
